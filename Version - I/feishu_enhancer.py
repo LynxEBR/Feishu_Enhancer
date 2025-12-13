@@ -41,8 +41,6 @@ class FeishuTestCaseEnhancer:
         self,
         dashscope_api_key: str = None,
         bocha_api_key: str = None,
-        # dashscope_api_key: str = "sk-351ebfc7679f49c69ccc83157574d89b",
-        # bocha_api_key: str = "sk-fc06c52b26f04b5f986ddc36bd01b214",
         chroma_persist_dir: str = "./chroma_db",
         chroma_collection_name: str = "feishu_test_cases",
         similarity_threshold: float = 0.90,
