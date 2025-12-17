@@ -1,0 +1,31 @@
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+mcp>=1.0.0
+requests>=2.31.0
+httpx>=0.24.0
+typing-extensions>=4.8.0
+
+# API 相关
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# UI-TARS Desktop 客户端
+httpx>=0.24.0
+
+# 数据库相关
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+pgvector>=0.2.0
+
+# Embedding 相关
+transformers>=4.30.0
+# 注意: torch>=2.0.0 默认安装 CPU 版本
+# 如果要使用 GPU，请先卸载 CPU 版本，然后安装 CUDA 版本：
+# pip uninstall torch torchvision torchaudio
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  # CUDA 11.8
+# 或
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121  # CUDA 12.1
+torch>=2.0.0
+numpy>=1.24.0
+

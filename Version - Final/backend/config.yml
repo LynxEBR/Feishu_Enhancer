@@ -1,0 +1,18 @@
+OPENAI_API_KEY=sk-kv78ej8whiRa9GqQZMvn2qJeaJFYWyaFR6mG0V77zPs7QGVR
+OPENAI_BASE_URL=https://api.openai-proxy.org/v1
+MODEL_NAME=gpt-5.1
+
+DATABASE_URL=postgresql://postgres:PMnbbJDZZKNywpFk@115.190.47.220:38888/postgres
+
+UI_TARS_BASE_URL=https://ark.cn-beijing.volces.com/api/v3/
+UI_TARS_API_KEY=dd4d8525-2aec-4159-b693-e7451131a793
+UI_TARS_MODEL=doubao-1-5-ui-tars-250428
+
+# Bocha API 配置（联网搜索）
+BOCHA_API_KEY=sk-fc06c52b26f04b5f986ddc36bd01b214
+BOCHA_BASE_URL=https://api.bochaai.com/v1
+
+# 任务增强器配置
+ENHANCE_SIMILARITY_THRESHOLD=0.85
+ENHANCE_ENABLE_CACHE=true
+ENHANCE_ENABLE_WEB_SEARCH=true
