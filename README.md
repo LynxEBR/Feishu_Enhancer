@@ -3,3 +3,6 @@
 
 # Version - II
 该文件夹为最终版本,使用PGSQL替代了原有的ChromaDB,以此来适应整体的框架
+
+# Version - Final
+该版本为最终版本,已经经过平稳运行
